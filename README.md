@@ -107,10 +107,20 @@ Virtual Machine has been Created
 
 ### Connect to  the VM:
 
-Username: `LabADMIN`  
-Password: `osTicketPassword123!`  
+<img width="2878" height="1262" alt="image" src="https://github.com/user-attachments/assets/96cde874-0bb1-4092-a92b-aed7dd9517b3" />
+ <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/ea1d5b9b-8efb-468f-8f4f-9d951c2e0a05" />
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/636da8c5-cbe0-4239-ba61-0a35bcc9a191" />
+<img width="2866" height="1800" alt="image" src="https://github.com/user-attachments/assets/04ca25ce-7034-4418-b5be-cea4251de3fe" />
 
-![3](https://github.com/user-attachments/assets/1a569a50-301f-4ee2-9b79-a3a7845c4b97)
+- First you need to copy the Public IP Address
+- Open the Remote Desktop App and select the add PC option
+- After that you need to put the IP Address and select the pc name as "osTicket' and click add
+- Type username and Password and click continue
+
+- USERNAME: `labadmin`
+- PASSWORD: `Password1234`
+
+- Now we have successfully created a remote desktop
 
 
 ### Installing IIS with CGI
