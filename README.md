@@ -137,12 +137,11 @@ To do this navigate to the Control Panel
 
 ![Pasted image 20250313054637](https://github.com/user-attachments/assets/bef5dc7f-2b55-44a1-aa56-a34f9981a120)
 
- Tick Internet Information Services box
+ Tick Internet Information Services (IIS)
  
  Navigate to World Wide Web Services> Application Development Features and tick CGI box
 
-
-![Pasted image 20250313055122](https://github.com/user-attachments/assets/91c784cd-8458-4ee9-837a-fdd02a5a5047)
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/9543cd65-cc17-4536-af9c-7ec594474d25" />
 
 ### Verify IIS has been installed
 
