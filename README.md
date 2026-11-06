@@ -128,7 +128,9 @@ Virtual Machine has been Created
 Next we will be installing and enabling IIS (Internet Information Services) with CGI
 To do this navigate to the Control Panel
 
-![4png](https://github.com/user-attachments/assets/90104521-dc56-4535-907e-f8c07cdd294e)
+<img width="2872" height="1800" alt="image" src="https://github.com/user-attachments/assets/48608cad-36cb-414f-9ce1-3b264dc35b12" />
+<img width="2010" height="1116" alt="image" src="https://github.com/user-attachments/assets/f0bd898d-2771-4828-9d25-fa526acc5d28" />
+
 
 
  Click on Programs> Turn Windows Features On or Off
