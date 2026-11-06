@@ -463,7 +463,3 @@ We can use the following credentials to login to the admin portal
 
 Thats it for this lab we have successfully installed osTicket!
 
-In the next lab we will configure different roles within OS ticket as well as configuring SLAs (Service Level Agreements)
-
-## Next Steps
-[osTicket: Post Installation Configuration](https://github.com/RobGaughan/osTicket-Post-Installation-Configuration)
