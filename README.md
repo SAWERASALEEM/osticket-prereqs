@@ -159,7 +159,6 @@ All the necessary files can be found [here](https://drive.usercontent.google.com
 
 Install PHPManagerForllS_V1.5.O
 
-*Click through all prompts as necessary*
 
 ![Pasted image 20250313060044](https://github.com/user-attachments/assets/1f601558-2794-4e95-8e5a-2333ea9c5d51)
 
@@ -169,9 +168,8 @@ Install PHPManagerForllS_V1.5.O
 
 #### Install "rewrite_amd64_en-US"
 
-Next install "rewrite_amd64_en-US"
+Install "rewrite_amd64_en-US"
 
-*Click through all prompts as necessary*
 
 ![Pasted image 20250313060742](https://github.com/user-attachments/assets/7e9761ef-f153-47b6-b4c9-49dc3da6401e)
 
@@ -197,9 +195,8 @@ PHP folder will look like this after:
 
 #### Next install "VC_redist.x86"
 
-Next install "VC_redist.x86"
+Install "VC_redist.x86"
 
-Click through all prompts as necessary
 
 ![Pasted image 20250313061526](https://github.com/user-attachments/assets/b7a9318e-853b-4f88-97bb-8e266adfb30d)
 
@@ -227,7 +224,7 @@ Click "Standard Configuration"
 ![Pasted image 20250313062105](https://github.com/user-attachments/assets/38c2eb11-c504-47aa-ba0e-9a1ca7a3586f)
 
 
-Configure root password as: `osTicketPassword123!`  
+Configure root password as: `Password1`  
 
 ![Pasted image 20250313062301](https://github.com/user-attachments/assets/e2dbc651-fa99-41a6-b5bd-17f6a5bbc1ab)
 
