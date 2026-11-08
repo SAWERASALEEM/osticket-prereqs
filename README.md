@@ -296,21 +296,10 @@ As you can see by the red Xs we still have a bit more to configure
 ![Pasted image 20250313064852](https://github.com/user-attachments/assets/8d2ee7ab-ee48-4922-80ef-2ea11d59ce36)
 
 #### Enable PHP Extensions
-
-Go back to IIS and Select osTicket > PHP Manager   
-
+   
 ![Pasted image 20250313165524](https://github.com/user-attachments/assets/6238347a-fae4-4f8c-885e-57602f6a9f99)
 
-
-Click on "Enable or disable an extension"
-
 ![Pasted image 20250313165618](https://github.com/user-attachments/assets/7eb1e3e3-a9d6-4db9-9fda-59bdddfd78a7)
-
-
-Right click > enable on the following .dll files
-- php_imap.dll
-- php_intl.dll
-- php_opcache.dll
 
 ![Pasted image 20250313165936](https://github.com/user-attachments/assets/29fdc3b8-4cff-4062-920e-991b3a3d9216)
 
@@ -319,6 +308,13 @@ Once your done it should look like this:
 
 ![Pasted image 20250313170211](https://github.com/user-attachments/assets/5e26433f-859a-48ae-a20b-67ae42ef67ff)
 
+- Go back to IIS > Sites > Default Web Site > osTicket
+- Double-click PHP Manager
+- Click “Enable or Disable an Extension” at the bottom of the screen under PHP Extensions
+- Right-click and enable the following
+- php_imap.dll (Might be already enabled)
+- php_intl.dll
+-php_opcache.dll
 
 Now we can go back to our web browser and refresh to see if the changes updated
 
