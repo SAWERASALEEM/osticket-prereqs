@@ -435,7 +435,7 @@ We can use the following credentials to login to the admin portal
 
 ![Pasted image 20250317053218](https://github.com/user-attachments/assets/540eda21-9c23-4430-abb7-25ac529a9a95)
 
-Thats it for this lab we have successfully installed osTicket!
+🎉Congratulations! We have successfully installed osTicket!🎉
 
 
 
