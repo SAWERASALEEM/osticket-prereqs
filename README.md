@@ -357,46 +357,36 @@ Renamed:
 ![Pasted image 20250313172441](https://github.com/user-attachments/assets/6381496e-addc-4539-af7d-9abd5ec32e2d)
 
 
-Now we will add everyone 
-
->[!CAUTION]
-> **This is for lab purposes only and done for brevity this should not be done on a real production environment**  
-> *Enabling  permissions for everyone is bad security policy I did this to keep the lab concise* 
-
 
 ![Pasted image 20250313172553](https://github.com/user-attachments/assets/6780b167-ddab-4461-9b1a-f89ed6b58045)
 
 
-Check "Full control" and then ok 
-
 ![Pasted image 20250313172819](https://github.com/user-attachments/assets/48ee9478-e4d7-445b-ab40-8d2abce5db58)
 
-
-Click apply to finalize 
 
 ![Pasted image 20250313172917](https://github.com/user-attachments/assets/54373c1b-cc6e-4d3c-94b0-e9b0d73291b7)
 
 
-### Next install & Confiure HeidiSQL
+### Next install & Configure HeidiSQL
 
 ![Pasted image 20250313173556](https://github.com/user-attachments/assets/f02d9fcd-e78b-40e5-a8f8-bf70bc5b44aa)
 
 
 After you finish installing launch HeidiSQL
- 
-Click "new" then for password:  `osTicketPassword123!`  
-Then click "Open"
+
 
 ![Pasted image 20250313173937](https://github.com/user-attachments/assets/e6cc680e-e690-40ce-b646-d4b3190967d8)
 
 
-
-Right Click on "Unnamed" > Create new > Database 
-
 ![Pasted image 20250313174539](https://github.com/user-attachments/assets/1053301a-252d-459e-8622-c72eca363f0f)
 
 
-Then name it `osTicket` and Click ok 
+- Open HeidiSQL > Select "New" at the bottom-left corner of the screen
+- User: root
+- Password: Password1
+- Select Open
+- On the left side, right-click Unnamed > select Create New > Database
+- Name it “osTicket” and select OK
 
 Note: You must name it exactly `osTicket` with the T capitalized or the configuration will not work 
 
@@ -405,27 +395,25 @@ Note: You must name it exactly `osTicket` with the T capitalized or the configur
 ### Finalize osTicket installation
 
 Now back on the web browser we will click "continue" to continue the install 
+<p align="center">
+<img src="https://i.imgur.com/1GfpPLs.png" height="80%" width="80%" alt="Azure Free Account"/>
 
 Configure the following sections:
 
-> [!NOTE]
-> Configure your own names and email the following is what I configured make sure to fill out all the following selections
->
-> Username/Password as well as The MySQL Sections should be the same as mine
 
 
 | Selection      | Configuration             |
 | -------------- | ------------------------- |
-| Helpdesk Name  | Rob's Helpdesk            |
+| Helpdesk Name  | Helpdesk                  |
 | Default Email  | example-email@gmail.com   |
-| First Name     | Rob                       |
-| Last Name      | Gaughan                   |
+| First Name     | your first name           |
+| Last Name      | your last name            |
 | Email Address  | example-email-2@gmail.com |
-| Username       | labAdmin                  |
-| Password       | osTicketPassword123!      |
+| Username       | user_admin                |
+| Password       | Password1                 |
 | MySQL Database | osTicket                  |
 | MySQL Username | root                      |
-| MySQL Password | osTicketPassword123!      |
+| MySQL Password | Password1                 |
 
 
 
