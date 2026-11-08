@@ -6,9 +6,6 @@
 In this project we will be setting up the prerequisites and installing an open source ticketing system called "osTicket".
 
 
-<p align="center">
-<img src="https://i.imgur.com/1GfpPLs.png" height="80%" width="80%" alt="Azure Free Account"/>
-
 <h2>What is osTicket?</h2>
 osTicket is an open-source helpdesk ticket management system. It is used by companies to manage customer problems and IT-related problems in one place.
 
@@ -417,9 +414,6 @@ Configure the following sections:
 
 
 
-![Pasted image 20250313174959](https://github.com/user-attachments/assets/26e9db14-c5ce-4df4-af2e-5f747e876bf7)
-
-
 
 ![Pasted image 20250313175410](https://github.com/user-attachments/assets/5fb69155-680a-4eeb-bd74-0b2fdc142108)
 
@@ -439,8 +433,8 @@ We can use the following credentials to login to the admin portal
 
 | Selection | Configuration        |
 | --------- | -------------------- |
-| Username  | labAdmin             |
-| Password  | osTicketPassword123! |
+| Username  | user_admin           |
+| Password  | Password1            |
 
 ![Pasted image 20250317053218](https://github.com/user-attachments/assets/540eda21-9c23-4430-abb7-25ac529a9a95)
 
