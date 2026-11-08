@@ -327,9 +327,8 @@ It should look like this:
 
 
 #### Rename `ost-sampleconfig.php`
-
-Next we will navigate to: `C:\inetpub\wwwroot\osTicket\include` 
-Rename`ost-sampleconfig.php`to `ost-config.php`
+- Open Windows Explorer and select C: > inetpub > wwwroot > osTicket > include
+- Rename`ost-sampleconfig.php`to `ost-config.php`
 
 ![Pasted image 20250313171115](https://github.com/user-attachments/assets/3ce22f25-5663-45e0-893b-9601816d6bf3)
 
@@ -341,22 +340,19 @@ Renamed:
 
 #### Assign permissions to `ost-config.php`
 
-Right click on `ost-config.php` and click Properties
+- Right-click ost-config.php
+- Open Properties > Security > Advanced > Permissions
+- Select Disable Inheritance > Remove all inherited permissions from this object
 
 ![8](https://github.com/user-attachments/assets/4f2261ab-a420-4bd3-9289-2622e7644db3)
 
-
-Go to the securities tab and click advanced  
-
 ![Pasted image 20250313172029](https://github.com/user-attachments/assets/1608fde9-aa19-4c5c-b748-25c16209b8e6)
-
-
-Click "Disable inheritance" and then click "Remove all inherited permissions from this object."
 
 ![Pasted image 20250313172209](https://github.com/user-attachments/assets/076c1728-7972-4578-be90-0db8a2154f1b)
 
 
-Now we will add new permissions click add and then click "select a principal"
+- Afterwards, select Add > select Principal > type in "everyone" > select Check Names > select OK
+- Allow everyone full control (check all boxes) > Select apply > OK
 
 ![Pasted image 20250313172441](https://github.com/user-attachments/assets/6381496e-addc-4539-af7d-9abd5ec32e2d)
 
